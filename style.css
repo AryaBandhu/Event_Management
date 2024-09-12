@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+}
+.Logins{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background: aquamarine;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0px 100px;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    background: darkcyan;
+    border-radius: 30px;
+}

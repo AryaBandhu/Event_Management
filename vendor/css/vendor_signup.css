@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.container{
+    text-align: -webkit-center;
+}
+.main{
+    background-color: darkgrey;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 50px;
+}
+h2{
+    background-color: deepskyblue;
+}
+.form{
+    margin: 40px;
+}
+.text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.password{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.input{
+    border: none;
+    background-color: cadetblue;
+    width: 200px;
+    height: 30px;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    margin: 50px 20px;
+}

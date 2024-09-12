@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Signup</title>
+    <link rel="stylesheet" href="./css/vendor_signup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vendor Signup</h1>
+        <div class="main">
+            <h2>Event Management System</h2>
+            <div class="form">
+                <form action="vendor_signup.php" method="post"> <!-- Modified action and method -->
+                    <div class="password">
+                        <label for="username">User ID </label>
+                        <input class="input" type="text" name="username" required>
+                    </div>
+                    <div class="password">
+                        <label for="email">Email</label>
+                        <input class="input" type="email" name="email" required>
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input class="input" type="password" name="password" required>
+                    </div>
+                    <div class="password">
+                        <label for="category">Category</label>
+                        <select class="input" name="category" required>
+                            <option value="Catering">Catering</option>
+                            <option value="Florist">Florist</option>
+                            <option value="Decoration">Decoration</option>
+                            <option value="Lighting">Lighting</option>
+                        </select>
+                    </div>
+                    <button type="submit">Signup</button> <!-- Submit button inside form -->
+                </form>
+                <a href="./admin_login.html">Already have an account?</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

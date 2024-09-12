@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="./css/user_login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Login</h1>
+        <div class="main">
+            <h2>Event Management System</h2>
+            <div class="form">
+                <form action="user_login.php" method="post">
+                    <div class="text">
+                        <label for="username">User ID</label>
+                        <input class="input" id="username" name="username" type="text" required>
+                    </div>
+                    <br>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input class="input" id="password" name="password" type="password" required>
+                    </div>
+                    <br>
+                    <button type="submit">Login</button>
+                    <a href="./user_signup.html">Create new account</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
