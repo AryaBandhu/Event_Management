@@ -1,0 +1,28 @@
+Admin
+
+
+username:    admin_username
+password:    admin_password
+
+******************************
+User
+
+
+name:       user
+email:      user@gmail.com
+password:   user123
+
+
+
+name:       arya
+email:      arya@gmail.com
+password:   arya123
+
+******************************
+Vendor
+
+username:   vendor
+email:      vendor@gmail.com
+password:   vendor123
+category:   catering
+
